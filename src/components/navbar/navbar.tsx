@@ -1,7 +1,7 @@
 import './navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass, faCircleUser } from '@fortawesome/free-solid-svg-icons'
-import img from '../assets/Screen Shot 2023-04-08 at 2.50.02 PM.png'
+import img from '../../assets/Screen Shot 2023-04-08 at 2.50.02 PM.png'
 
 
 function NavBar() {
@@ -10,7 +10,7 @@ function NavBar() {
     return (
         <div className="navbar-container">
             <div className='left-navbar'>
-                <img src={img} alt="" style={{marginRight: '25px'}}/>
+                <img src={img} alt="" style={{ marginRight: '25px', cursor: 'pointer' }} />
                 <div className='l-navbar-text'> Products </div>
                 <div className='l-navbar-text'> Solutions </div>
                 <div className='l-navbar-text'> Industries </div>
