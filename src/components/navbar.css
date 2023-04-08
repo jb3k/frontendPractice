@@ -1,0 +1,14 @@
+.navbar-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.left-navbar {
+    display: flex;
+}
+
+
+.right-navbar {
+    display: flex;
+}
