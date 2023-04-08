@@ -1,6 +1,6 @@
 .navbar-container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     width: 100%;
 }
 
@@ -11,4 +11,29 @@
 
 .right-navbar {
     display: flex;
+}
+
+
+.l-navbar-text {
+    margin: 10px 15px;
+    font-size: 23px;
+    color: rgb(130, 129, 127);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.r-navbar-text {
+    margin: 10px 15px;
+    font-size: 20px;
+    color: rgb(130, 129, 127);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.r-navbar-icon {
+    margin: 10px 8px;
+    font-size: 20px;
+    color: rgb(130, 129, 127);
+    font-family: 'Times New Roman', Times, serif;
+
 }
